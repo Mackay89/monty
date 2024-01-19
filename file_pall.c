@@ -1,9 +1,10 @@
 #include "monty.h"
 
 /**
- * file_pall - Prints the stack
+ * file_pall - Prints all the value on the stack
  * @stack: stack head
- * @counter: unused parameter
+ * @counter: line_number
+ * Return: no return
  */
 void file_pall(stack_t **stack, unsigned int counter)
 {
