@@ -2,11 +2,11 @@
 
 /**
  * execute - Execute the opcode
- * @stack: Head stack 
+ * @stack: Head stack
  * @counter: line_number
- * @file: The pointer to monty file 
+ * @file: The pointer to monty file
  * @content: line_content
- * Return: No return 
+ * Return: No return
  */
 void execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 {
@@ -46,7 +46,6 @@ void execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 		}
 		i++;
 	}
-
 	if (op && opst[i].opcode == NULL)
 	{
 		fprintf(stderr, "L%d: unknown instruction %s\n", counter, op);
@@ -55,4 +54,5 @@ void execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 		free_stack(*stack);
 		exit(EXIT_FAILURE);
 	}
+	return;
 }

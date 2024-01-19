@@ -10,7 +10,7 @@ void f_add(stack_t **stack, unsigned int counter)
 	stack_t *h = *stack;
 
 	if (!h || !(h->next))
-	
+
 	{
 		fprintf(stderr, "L%d: can't add, stack too short\n", counter);
 		fclose(bus.file);
