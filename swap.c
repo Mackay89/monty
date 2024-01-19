@@ -1,11 +1,12 @@
 #include "monty.h"
 
 /**
- * file_swap -Swaps the top two elements of the stock 
+ * f_swap - Swaps the top two elements of the stock 
  * @stack: stack head
  * @counter:line_number
+ * Return: no return 
  */
-void file_swap(stack_t **stack, unsigned int counter)
+void f_swap(stack_t **stack, unsigned int counter)
 {
 	stack_t *h = *stack;
 	int aux;
