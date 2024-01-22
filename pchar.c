@@ -2,9 +2,9 @@
 
 /**
  * file_pchar -Prints the char at the top of the stack
- * followed by new line 
+ * followed by new line
  * @stack: stack head
- * @count: line_number
+ * @counter: line number in the monty bytecode file
  */
 void file_pchar(stack_t **stack, unsigned int counter)
 {
@@ -13,7 +13,7 @@ void file_pchar(stack_t **stack, unsigned int counter)
 	aux = *stack;
 	if (!aux)
 	{
-		fprintf(stderr, "L%d: can't pchar, stack empty\n",counter);
+		fprintf(stderr, "L%d: can't pchar, stack empty\n", counter);
 		fclose(bus.file);
 		free(bus.content);
 		free_stack(*stack);

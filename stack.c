@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * file_stack - Sets the data structure to stack mode 
+ * file_stack - Sets the data structure to stack mode
  * @stack: The pointer to the stack
  * @counter: line_number
  */

@@ -2,7 +2,7 @@
 
 /**
  * file_pint - Prinys the top
- * @stack: stack head 
+ * @stack: stack head
  * @counter: line_number
  */
 void file_pint(stack_t **stack, unsigned int counter)

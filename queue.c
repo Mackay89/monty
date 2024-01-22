@@ -4,7 +4,7 @@
  * file_queue - Sets the data structure to queue mode
  * @stack: The pointer to the stack head
  * @counter: line_number
- * Return: no return 
+ * Return: no return
  */
 void file_queue(stack_t **stack, unsigned int counter)
 {
@@ -14,10 +14,10 @@ void file_queue(stack_t **stack, unsigned int counter)
 }
 
 /**
- * add_queue - Adds a node to the tail of the stack 
- * @stack: The pointer to the head of the stack 
- * @n: New value to be added 
- * Return: no return 
+ * add_queue - Adds a node to the tail of the stack
+ * @stack: The pointer to the head of the stack
+ * @n: New value to be added
+ * Return: no return
  */
 void add_queue(stack_t **stack, int n)
 {

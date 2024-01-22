@@ -5,7 +5,7 @@
 bus_t bus = {NULL, NULL, NULL, 0};
 
 /**
- * main - Monty that intepreter code 
+ * main - Monty that intepreter code
  * @argc: the number of arguments
  * @argv: Monty  file location
  * Return: 0 on success
